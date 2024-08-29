@@ -1,0 +1,47 @@
+header {
+
+    @apply py-4 px-7 font-secondary flex items-center justify-between bg-gradient-to-r from-black to-gray-950 lg:border-b lg:border-primary shadow text-white sticky lg:fixed top-0 left-0 w-full lg:w-fit lg:left-1/2 lg:-translate-x-1/2 lg:top-2.5 lg:rounded-full z-20;
+
+    .logo {
+
+        @apply lg:hidden font-medium text-3xl font-logo;
+
+    }
+
+    .menu {
+
+        @apply hidden lg:flex items-center justify-center font-medium gap-10;
+
+        a {
+
+            @apply cursor-pointer hover:text-primary capitalize;
+
+        }
+
+        .active {
+
+            @apply text-primary;
+            
+        }
+
+    }
+
+    .mobile-menu {
+
+        @apply absolute top-0 left-0 w-full h-screen bg-gradient-to-br from-gray-950 to-gray-900 flex flex-col text-center justify-center items-center;
+
+        a {
+
+            @apply px-12 py-5 hover:bg-primary hover:text-gray-950 w-fit text-xl font-medium cursor-pointer capitalize;
+
+        }
+
+    }
+
+    .menu-icon {
+
+        @apply lg:hidden z-10;
+
+    }
+
+}

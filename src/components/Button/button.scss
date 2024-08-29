@@ -1,0 +1,17 @@
+.button {
+
+    @apply inline-block mt-5 py-3 px-5 rounded-lg border border-primary text-lg font-semibold;
+
+    &.solid {
+
+        @apply bg-primary text-gray-950 hover:bg-transparent hover:text-primary;
+
+    }
+
+    &.default {
+
+        @apply text-primary hover:bg-primary hover:text-gray-950;
+
+    }
+
+}

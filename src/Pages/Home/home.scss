@@ -1,0 +1,57 @@
+.home {
+
+    .bg-image {
+
+        background-image: url('../../assets/Background-images/home.jpg');
+    
+    }
+
+    .container {
+
+        @apply justify-start;
+
+        .col-left {
+
+            @apply lg:w-3/5;
+
+            .tagline {
+
+                @apply block text-3xl mb-1 font-semibold font-primary;
+
+            }
+
+            h1 {
+
+                @apply font-primary uppercase font-bold md:text-7xl;
+
+                span {
+
+                    @apply text-white font-extralight md:text-5xl;
+
+                }
+
+            }
+
+            .excerpt {
+                
+                letter-spacing: 18px;
+
+            }
+
+        }
+
+        .col-right {
+
+            @apply lg:w-1/2 max-w-full;
+
+            img {
+
+                @apply rounded-3xl sm:w-2/3 mx-auto border-b-4 border-r-4 border-primary p-2;
+
+            }
+
+        }
+
+    }
+
+}

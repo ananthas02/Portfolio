@@ -1,0 +1,66 @@
+.about {
+
+    .bg-image {
+
+        background-image: url('../../assets/Background-images/about.jpg');
+    
+    }
+
+    .col-left,
+    .col-right {
+
+        @apply flex-1;
+
+    }
+
+    .col-left {
+
+        img {
+
+            @apply md:w-2/3 mx-auto rounded-2xl border-l-4 border-b-4 border-primary p-2 ;
+
+        }
+
+    }
+
+    .col-right {
+
+        // .skill-info {
+
+        //     @apply mb-4 last:mb-0;
+
+        //     .title {
+
+        //         @apply flex justify-between items-center mb-2 text-white;
+
+        //     }
+
+        //     .progress-bar {
+
+        //         @apply h-1 w-full rounded-full bg-white overflow-hidden;
+    
+        //         .progress {
+    
+        //             @apply block rounded-full h-full bg-primary;
+    
+        //         }
+    
+        //     }
+
+        // }  
+
+        .experience {
+
+            @apply mt-5;
+
+            span {
+
+                @apply block text-xl text-white font-medium mb-2.5;
+
+            }
+
+        }
+
+    }
+
+}

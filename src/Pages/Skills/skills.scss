@@ -1,0 +1,45 @@
+.skills {
+
+    .bg-image {
+
+        background-image: url('../../assets/Background-images/skills.jpg');
+    
+    }
+
+    .container {
+
+        @apply flex flex-col items-center justify-center gap-10;
+        
+    }
+
+    .skill-info {
+
+        @apply w-full flex justify-center items-center flex-wrap gap-5 md:gap-10;
+    
+        li {
+
+            @apply text-center;
+
+            div {
+
+                @apply p-6 rounded-md shadow-lg border border-gray-900;
+
+                img {
+
+                    @apply h-24 w-24;
+    
+                }
+
+            }
+
+            p {
+
+                @apply mt-2.5;
+
+            }
+    
+        }
+    
+    }
+
+}

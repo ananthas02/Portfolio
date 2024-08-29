@@ -1,0 +1,39 @@
+.contact {
+
+    .bg-image {
+
+        background-image: url('../../assets/Background-images/contact.jpg');
+    
+    }
+
+    .container {
+
+        @apply flex flex-col items-center justify-center text-center lg:w-3/5 gap-10;
+
+        .contact-links {
+
+            @apply flex items-center justify-center gap-5;
+
+            a {
+
+                @apply rounded-lg p-5 border border-gray-900;
+
+                img {
+
+                    @apply h-20 w-20;
+
+                }
+
+            }
+
+        }
+
+        .button {
+
+            @apply mt-0;
+            
+        }
+
+    }
+
+}

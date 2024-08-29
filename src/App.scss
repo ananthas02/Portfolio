@@ -1,0 +1,71 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+
+  @apply font-semibold text-lime-500 mb-5 font-primary;
+
+}
+
+h1 {
+
+  @apply text-4xl md:text-5xl;
+
+}
+
+h2 {
+
+  @apply text-3xl md:text-4xl;
+
+}
+
+h3 {
+
+  @apply text-2xl md:text-3xl;
+
+}
+
+p {
+
+  @apply text-base md:text-lg font-secondary leading-loose lg:leading-loose;
+
+}
+
+p + p {
+
+  @apply pt-2.5;
+
+}
+
+.container {
+
+  @apply mx-auto px-3 sm:px-5 2xl:px-10 h-full z-10 relative;
+
+}
+
+.page {
+
+  @apply lg:h-screen py-10 w-full bg-gradient-to-br from-black to-gray-950 text-gray-400 relative;
+
+}
+
+.flex-res {
+
+  @apply flex flex-col lg:flex-row lg:items-center justify-center gap-10;
+  
+}
+
+.bg-image {
+   
+  @apply h-full w-full absolute left-0 top-0 right-0 bottom-0 grayscale opacity-15;
+  background-repeat: no-repeat;
+  background-size:cover;
+
+}
+
+span {
+
+  @apply font-secondary;
+}

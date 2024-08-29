@@ -1,0 +1,11 @@
+Footer {
+
+    @apply bg-gradient-to-tr from-black to-gray-950 py-3 text-gray-700;
+
+    p {
+
+        @apply text-sm text-center;
+
+    }
+
+}
